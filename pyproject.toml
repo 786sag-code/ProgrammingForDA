@@ -1,0 +1,23 @@
+[project]
+name = "programmingforda"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "786sag-code", email = "54550202+786sag-code@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+programmingforda = "programmingforda:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false
